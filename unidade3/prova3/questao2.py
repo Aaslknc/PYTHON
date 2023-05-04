@@ -1,3 +1,7 @@
+# nessa questao, vc recebe como entrada uma matriz de ordem n e uma série de fatores
+# seu objetivo é imprimir as matrizes resultantes, onde cada elemento da matriz é multiplicado pelo escalar inserido
+# só que as matrizes acumulam, ou seja, a próxima multiplicação deve considerar a matriz anterior, e assim por diante
+
 def multiplicar_matriz(fator, matriz):
     nova_matriz = []
     for linha in matriz:
