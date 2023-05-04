@@ -1,3 +1,8 @@
+# nessa questao, o formato de entrada sao linhas como peixe:2,ovo grande:3, e o objetivo é
+# imprimir a lista de compras em uma ordem crescente
+# e no final imprimir o produto mais vendido e a sua quantidade
+
+
 def produto_mais_vendido(dicionario):
     maior_qtde = 0
     indice = 0
